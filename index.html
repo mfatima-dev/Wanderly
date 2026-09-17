@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderly</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+
+    <h2 class="logo">Wanderly</h2>
+
+    <ul>
+
+        <li><a href="#">Home</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+    <button id="theme-btn">🌙</button>
+
+</nav>
+
+    <section class="hero" id="home">
+        
+        <div class="hero-text">
+
+            <h1>Explore the World</h1>
+
+            <p>
+                Discover unforgettable destinations crafted for your next adventure.
+            </p>
+
+            <button id="explore-btn">Explore Now</button>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="images/hero.jpg" alt="Travel">
+
+        </div>
+
+    </section>
+    <section id="destinations">
+
+    <h2>Popular Destinations</h2>
+
+    <p id="selected-place"></p>
+
+    <div class="search-box">
+
+        <input
+        type="text"
+        id="search-input"
+        placeholder="Search destinations...">
+
+    </div>
+
+    <div class="cards">
+
+        <div class="card" data-place="Maldives 🌴">
+        
+            <img src="https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=600" alt="Maldives">
+
+            <div class="card-header">
+                <h3>Maldives</h3>
+                <div class="favorite">🤍</div>
+             </div>
+
+            <p>From $999</p>
+
+            <button class="book-btn">Book Now</button>
+        </div>
+
+        <div class="card" data-place="Switzerland 🏔️">
+            
+
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600" alt="Switzerland">
+
+            <div class="card-header">
+
+                <h3>Switzerland</h3>
+                <div class="favorite">🤍</div>
+            </div>
+
+            <p>From $899</p>
+
+            <button class="book-btn">Book Now</button>
+
+        </div>
+
+        <div class="card" data-place="Dubai 🏙️">
+           
+            <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600" alt="Dubai">
+
+            
+            <div class="card-header">
+                <h3>Dubai</h3>
+                <div class="favorite">🤍</div>
+            </div>
+            <p>From $499</p>
+
+            <button class="book-btn">Book Now</button>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="stats">
+
+    <div class="stat">
+        <h2>120+</h2>
+        <p>Destinations</p>
+    </div>
+
+    <div class="stat">
+        <h2>25K+</h2>
+        <p>Happy Travelers</p>
+    </div>
+
+    <div class="stat">
+        <h2>4.9★</h2>
+        <p>Average Rating</p>
+    </div>
+
+    <div class="stat">
+        <h2>15+</h2>
+        <p>Years Experience</p>
+    </div>
+
+</section>
+<section id="about">
+
+    <div class="about-text">
+
+        <h2>Travel Beyond Boundaries</h2>
+
+        <p>
+
+            At Wanderly, we believe every journey should be unforgettable.
+            From tropical islands to snowy mountains, we create travel
+            experiences that combine comfort, adventure and unforgettable memories.
+
+        </p>
+
+        <button>Learn More</button>
+
+    </div>
+
+    <div class="about-image">
+
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=900">
+
+    </div>
+
+</section>
+<section class="testimonials">
+
+    <h2>What Our Travelers Say</h2>
+
+    <div class="testimonial-container">
+
+        <div class="testimonial">
+
+            <p>
+
+                "Absolutely amazing experience. Everything was organized perfectly."
+
+            </p>
+
+            <h4>— Sarah</h4>
+
+        </div>
+
+        <div class="testimonial">
+
+            <p>
+
+                "The Maldives trip exceeded every expectation."
+
+            </p>
+
+            <h4>— James</h4>
+
+        </div>
+
+        <div class="testimonial">
+
+            <p>
+
+                "Best travel agency I've ever booked with."
+
+            </p>
+
+            <h4>— Emma</h4>
+
+        </div>
+
+    </div>
+
+</section>
+<section id="contact">
+
+    <h2>Let's Plan Your Next Adventure</h2>
+
+    <form>
+
+        <input type="text" placeholder="Your Name">
+
+        <input type="email" placeholder="Email Address">
+
+        <textarea placeholder="Tell us about your dream vacation"></textarea>
+
+        <button type="submit">
+
+            Send Message
+
+        </button>
+
+    </form>
+
+</section>
+<footer>
+
+    <h2>Wanderly</h2>
+
+    <p>
+
+        Discover the world with confidence.
+
+    </p>
+
+    <p>
+
+        © 2026 Wanderly. All Rights Reserved.
+
+    </p>
+
+</footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
